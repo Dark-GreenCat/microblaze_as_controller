@@ -8,7 +8,7 @@ module top_u250 (
 );
   wire clk;
   reg  rst_n = 1'b0;
-  reg [63:0] clk_cnt;
+  reg [63:0] clk_cnt = 0;
 
   always @(posedge clk) begin
     clk_cnt <= clk_cnt + 1;

@@ -1456,6 +1456,34 @@
           }
         }
       }
+    },
+    "elf_association": {
+      "file": {
+        "name": "../../imports/Debug/cdma_test.elf",
+        "type": "ELF",
+        "checksum": "701785725",
+        "IsVisible": "1",
+        "ScopedToRef": "system",
+        "ScopedToCell": [
+          "microblaze_riscv_0"
+        ],
+        "UsedIn": [
+          "implementation"
+        ]
+      },
+      "file": {
+        "name": "../../../../vitis/workspace_0/cdma_test/Debug/cdma_test.elf",
+        "type": "ELF",
+        "checksum": "1812653442",
+        "IsVisible": "1",
+        "ScopedToRef": "system",
+        "ScopedToCell": [
+          "microblaze_riscv_0"
+        ],
+        "UsedIn": [
+          "simulation"
+        ]
+      }
     }
   }
 }
