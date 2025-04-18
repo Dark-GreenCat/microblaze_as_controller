@@ -1,0 +1,7 @@
+microblaze_test.cache
+microblaze_test.gen
+microblaze_test.sim
+microblaze_test.hw
+microblaze_test.runs
+microblaze_test.ip_user_files
+*.xsa
