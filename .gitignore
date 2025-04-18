@@ -4,4 +4,6 @@ microblaze_test.sim
 microblaze_test.hw
 microblaze_test.runs
 microblaze_test.ip_user_files
+microblaze_test.code-workspace
+vitis
 *.xsa
